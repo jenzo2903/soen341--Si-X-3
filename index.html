@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Service Booking</title>
+</head>
+<body>
+    <h2>Available Services</h2>
+    <div id="availableServices">
+        <!-- Hardcoded list of services for clients to choose from -->
+        <div>
+            <p>Residential Cleaning</p>
+            <button onclick="scheduleService('Residential Cleaning')">Book Now</button>
+        </div>
+        <div>
+            <p>Commercial Cleaning</p>
+            <button onclick="scheduleService('Commercial Cleaning')">Book Now</button>
+        </div>
+    </div>
+
+    <h2>Your Scheduled Services</h2>
+    <div id="noServicesMessage">No services scheduled.</div>
+    <div id="scheduledServicesList"></div>
+
+    <!-- Link to JavaScript file -->
+    <script src="script2.js"></script>
+</body>
+</html>
